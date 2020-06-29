@@ -17,24 +17,7 @@ function postData(v){
 				document.getElementById('time').innerHTML = currentValue.time;
 				document.getElementById('ans').innerHTML = currentValue.value[0];
 			};
-			var answer = document.getElementById('ans').innerHTML;
-			var answer_1 = "1";
-			var answer_2 = "2";
-			var answer_3 = "3";
-			var answer_4 = "4";
 			
-			console.log(answer == answer_1);
-			if ((answer == answer_1)) {
-			
-				document.getElementById('pic').innerHTML.src="choo_1.jpg" ;
-				
-			}else if (answer == answer_2){
-				document.getElementById('pic').innerHTML.src="choo_2.jpg";
-			}else if (answer == answer_3){
-				document.getElementById('pic').innerHTML = " ./img/choo_2.jpg";
-			}else if (answer == answer_4){
-				document.getElementById('pic').innerHTML = " ./img/choo_2.jpg";
-			}
 		});
 		
 

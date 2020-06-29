@@ -30,13 +30,13 @@
     font-weight: 700;
 }
 .a2{
-    background-image: url(/img/a2.jpg);
+    background-image: url(../img/a2.jpg);
     width: 243px;
     height: 243px;
     margin-right: 20px;
 }
 .a3{
-    background-image: url(/img/a3.jpg);
+    background-image: url(../img/a3.jpg);
     width: 243px;
     height: 243px;
 }
@@ -45,19 +45,19 @@
     flex-direction: row;
 }
 .b1{
-    background-image: url();
+    background-image: url(../img/b1.jpg);
     width: 243px;
     height: 243px;
     margin-right: 20px;
 }
 .b2{
-    background-image: url(/img/b2.jpg);
+    background-image: url(../img/b2.jpg);
     width: 243px;
     height: 243px;
     margin-right: 20px;
 }
 .b3{
-    background-image: url(/img/b3.jpg);
+    background-image: url(../img/b3.jpg);
     width: 243px;
     height: 243px;
 }

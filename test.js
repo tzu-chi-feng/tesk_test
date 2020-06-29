@@ -13,20 +13,28 @@ function postData(v){
 		console.log(obj);
 		obj.forEach(function(currentValue, index) {
 			if (index === 0) {
-				document.getElementById('answer').innerHTML = currentValue.sid;	
-				document.getElementById('answer1').innerHTML = currentValue.time;
-				document.getElementById('answer2').innerHTML = currentValue.value[0];
+				// document.getElementById('answer').innerHTML = currentValue.sid;	
+				document.getElementById('time').innerHTML = currentValue.time;
+				document.getElementById('ans').innerHTML = currentValue.value[0];
 			};
-		// var studentid = currentValue.value[0].toString();
-		// var classmate = "107AC1013";
-		// 	if (studentid = classmate) {
+			var answer = document.getElementById('ans').innerHTML;
+			var answer_1 = "1";
+			var answer_2 = "2";
+			var answer_3 = "3";
+			var answer_4 = "4";
 			
-		// 		document.getElementById('answer3').innerHTML = "成功喔喔";
+			console.log(answer == answer_1);
+			if ((answer == answer_1)) {
+			
+				document.getElementById('pic').innerHTML.src="choo_1.jpg" ;
 				
-		// 	}else{
-		// 		document.getElementById('answer3').innerHTML = "失敗喔喔";
-		// 	}
-			   
+			}else if (answer == answer_2){
+				document.getElementById('pic').innerHTML.src="choo_2.jpg";
+			}else if (answer == answer_3){
+				document.getElementById('pic').innerHTML = " ./img/choo_2.jpg";
+			}else if (answer == answer_4){
+				document.getElementById('pic').innerHTML = " ./img/choo_2.jpg";
+			}
 		});
 		
 

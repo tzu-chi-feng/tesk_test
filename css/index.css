@@ -68,20 +68,22 @@ html{
     flex-direction: column;
 }
 .start_btn{
-    height: 100px;
+    margin-top: 100px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .button2{
     transition-duration: 0.4s;
     width: 20%;
-    height: 60%;
+    height: 30%;
     color: white;
     background-color: #B1DFC4;
     font-size: 3vh;
     font-family: noto sans tc;
-    border-radius: 40px;
+    border-radius: 60px;
     border: none;
     
 }

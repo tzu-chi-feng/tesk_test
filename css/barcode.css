@@ -1,0 +1,92 @@
+.all_con{
+    display: flex;
+    flex-direction: row;
+}
+.seat{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.students{
+    width: 30%;
+    height: 96vh;
+    border-left: 3px solid #D5D5D5;
+}
+.blackboard{
+    margin-top: 50px;
+}
+.desks{
+    margin-top: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+.a1{
+    background-image: url(/img/a1.jpg);
+    width: 243px;
+    height: 243px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.a2{
+    background-image: url(/img/a2.jpg);
+    width: 243px;
+    height: 243px;
+    margin-right: 20px;
+}
+.a3{
+    background-image: url(/img/a3.jpg);
+    width: 243px;
+    height: 243px;
+}
+.row_1{
+    display: flex;
+    flex-direction: row;
+}
+.b1{
+    background-image: url(/img/b1.jpg);
+    width: 243px;
+    height: 243px;
+    margin-right: 20px;
+}
+.b2{
+    background-image: url(/img/b2.jpg);
+    width: 243px;
+    height: 243px;
+    margin-right: 20px;
+}
+.b3{
+    background-image: url(/img/b3.jpg);
+    width: 243px;
+    height: 243px;
+}
+.row_2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.students_table{
+    width: 100%;
+    font-family: noto sans tc;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    color: #7A7A7A;
+}
+.button3{
+    background-color: #B1DFC4;
+    color: white;
+    font-family: noto sans tc;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.button3:hover{
+    background-color: #89BB9D;
+    color: white;
+    
+    
+}

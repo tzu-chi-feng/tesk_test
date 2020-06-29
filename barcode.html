@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>TESK E-DESK</title>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <link href="css/index.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"> 
-    <script src="javascript.js"></script> 
+    <link href="./css/barcode.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet"> 
+    <script src="./javascript.js"></script> 
     
   
      
@@ -15,11 +15,73 @@
 </head>
 
 <body>
-    <div id="answer" class="answer"></div>
-    <div id="answer1" class="answer"></div>
-    <div id="answer2" class="answer"></div>
-    <div id="answer3" class="answer"></div>
-    <h1></h1>
+    <div>
+        <input type="button" class="button3" value="回首頁" onclick="location.href='https://tzu-chi-feng.github.io/tesk_test/'">
+    </div>
+    <div class="all_con">
+    <div class="seat">
+        <div class="blackboard">
+            <img src="./img/blackboard.jpg" alt="">
+        </div>
+
+<div class="desks">
+    <div class="row_1">
+        <div class="a1" >            
+            <div id="a12" style="font-family: noto sans tc;font-size: 30px;margin-top: 60px;"></div>
+            <div id="a13" style="font-family: noto sans tc;font-size: 40px;"></div>
+            <div id="a11" style="font-family: noto sans tc;font-size: 18px;"></div>
+        </div>
+        <div class="a2"></div>
+        <div class="a3"></div>
+    </div>
+    <div class="row_2">
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+        </div>
+    
+</div>
+    </div>
+    <div class="students">
+        <table class="students_table"> 
+            <tr> 
+             <th>學生姓名</th> 
+              <th>學號</th>
+              <th>簽到狀態</th>
+            </tr> 
+            <tr> 
+            <td>盧俊諺</th> 
+             <td>107AC1229</td> 
+             <td id="lu"></td>
+            </tr> 
+            <tr> 
+            <td>吳國禎</th> 
+             <td>107AC2048</td> 
+             <td id="wu"></td>
+            </tr> 
+            <tr> 
+                <td>胡縉祥</th> 
+                 <td>107AC1234</td> 
+                 <td id="hu"></td>
+                </tr> 
+                <tr> 
+                    <td>翁哲川</th> 
+                     <td>107AC1827</td> 
+                     <td id="won"></td>
+                    </tr> 
+                    <td>楊宙航</th> 
+                        <td>107AC2957</td>
+                        <td id="young"></td> 
+                       </tr> 
+                       <td>陳圳卿</th> 
+                        <td>107AC2345</td> 
+                        <td id="chen"></td>
+                       </tr>  
+          </table>
+          
+          
+    </div>
+    </div>
   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 </body>

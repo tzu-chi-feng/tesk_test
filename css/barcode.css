@@ -23,7 +23,7 @@
     color: white;
 }
 .a1{
-    background-image: url(/img/a1.jpg);
+    background-image: url(../img/a1.jpg);
     width: 243px;
     height: 243px;
     margin-right: 20px;
@@ -45,7 +45,7 @@
     flex-direction: row;
 }
 .b1{
-    background-image: url(/img/b1.jpg);
+    background-image: url();
     width: 243px;
     height: 243px;
     margin-right: 20px;

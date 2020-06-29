@@ -69,7 +69,7 @@ function postData(v){
 	
 
 	// "https://ideaschain.com.tw/iot/v1/rawdata/" + DEVICE_ID + "/" + SENSOR_ID
-	request.open("GET", "https://ideaschain.com.tw/iot/v1/rawdata/" + DEVICE_ID + "/" + SENSOR_ID + "?start=2020-06-12 &end=2020-06-30 20:30 ", true);
+	request.open("GET", "https://ideaschain.com.tw/iot/v1/rawdata/" + DEVICE_ID + "/" + SENSOR_ID + "?start=2020-06-12 &end=2020-07-01 20:30 ", true);
 	request.setRequestHeader("AK", AK);
 	request.setRequestHeader("content-type","application/json");
 	var data = JSON.stringify([{

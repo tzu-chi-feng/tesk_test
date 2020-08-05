@@ -19,7 +19,7 @@ function postData(v){
 			};
 			var studentid = document.getElementById('a12').innerHTML;
 			var classmate = '106AC1013';
-			var th_lu = '107AC1229';
+			var th_lu = 'ABC-1234';
 			var th_wu = '107AC2048';
 			var th_hu = '107AC1234';
 			var th_won = '107AC1827';
@@ -32,7 +32,7 @@ function postData(v){
 				
 			}else if (studentid == th_lu){
 				document.getElementById('lu').innerHTML = '簽到成功';
-				document.getElementById('a13').innerHTML = '盧俊諺';
+				document.getElementById('a13').innerHTML = '歐巴馬';
 			}else if (studentid == th_wu){
 				document.getElementById('wu').innerHTML = '簽到成功';
 				document.getElementById('a13').innerHTML = '吳國禎';
